@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Oleo+Script:wght@400;700&family=SUSE:wght@100..800&display=swap');
+
+
+.suse-font{
+    font-family: "SUSE", sans-serif;
+}
+.oleo-font{
+    font-family: "Oleo script", system-ui;
+}
+@media (max-width: 576px){
+    .offcanvas{
+        width: 80% !important;
+    }
+}
+
+.txt-hover:hover{
+    color: aqua !important;
+    transform: scale(1.1px);
+}
+
+/* banner */
+.acticle p{
+    font-size: clamp(12px,3.4vw,18px);
+}
+
+@media(min-width:576px){
+    .acticle{
+        padding-right: 620px !important;
+    }
+
+    
+}
+
+@media(max-width:576px){
+    .acticle{
+        padding-left: 20px !important;
+    }
+
+    .about1{
+        border-bottom: 1px solid rgb(120, 117, 116);
+    }
+    .about2{
+        border-top: 1px solid rgb(126, 126, 126);
+    }
+}
+
+
+@media(min-width:756px){
+    
+
+    .about1{
+        border-right: 1px solid rgb(120, 117, 116);
+    }
+    .about2{
+        border-left: 1px solid rgb(126, 126, 126);
+    }
+}
+
+
+
+
+
+@media(max-width:992px){
+    .acticle{
+        padding-left: 20px !important;
+    }
+}
+
+
+
+/* card */
+.card-size{
+    height: 220px;
+}
+
+@media(max-width: 576px){
+    .card-size{
+       height: 100px;
+    } 
+}
+
+
+@media(max-width: 992px){
+    .card-size{
+        height: 140px;
+    } 
+}
+
+
+.text-limit{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical;
+ }
+ 
